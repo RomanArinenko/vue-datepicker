@@ -806,7 +806,6 @@ exports.default = {
       }
       this.showInfo.check = false;
       this.$emit('change', this.date.time);
-      console.log('RA: ',this.date.time)
     },
     dismiss: function dismiss(evt) {
       if (evt.target.className === 'datepicker-overlay') {
